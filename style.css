@@ -1,0 +1,47 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+}
+
+header {
+  padding: 122px 183px 40px;
+  background-color: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(92.7deg, #0dcaf0 0%, #0dcaf0 100%);
+}
+
+.search {
+  padding: 15px 102px 15px;
+  border-radius: 6px;
+  border: none;
+}
+
+button {
+  padding: 15px 26px;
+  color: white;
+  background: rgba(237, 48, 82, 1);
+  border-radius: 6px;
+  border: none;
+}
+
+.body {
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  display: flex;
+  background-color: rgb(250, 245, 245);
+  box-shadow: 0px 5px 20px 0px rgba(27, 108, 114, 0.25);
+}
+
+h1 {
+  padding-top: 10px;
+}
